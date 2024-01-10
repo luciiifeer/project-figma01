@@ -109,9 +109,320 @@ a{
 
 /* ==========banner=========== */
 
+/* ===========Success_Part========== */
+
+
+#success_part{
+    margin-top: 171px;
+}
+
+#success_part .container{
+    padding: 69px 51px 86px 50px;
+    border-radius: 20px;
+    background: #E0FFF9;
+}
+
+#success_part .container .left{
+    margin-top: 16px;
+}
+
+#success_part .container .left h3{
+    color: #6A4DF4;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+#success_part .container .left h2{
+    color: #151515;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#success_part .container .text {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 110px;
+}
+
+#success_part .container .text .item h4{
+    color: #151515;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#success_part .container .text .item p{
+    color: #737373;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+
+/* ===========Success_Part========== */
+
+
+/* ============service_part============ */
+
+#service_part {
+    margin-top: 149px;
+}
+
+/* #service_part .container{
+    justify-content: center;
+    align-items: center;  
+    text-align: center; 
+} */
+
+#service_part .container  h4{
+    color:  #151515;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0 414px 0;
+    text-align: center; 
+}
+
+#service_part .container p{
+    color: #737373;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+    padding: 0 354px 50px 356px;
+}
+
+#service_part .container .top{
+    display: flex;
+    justify-content: space-between
+}
+
+#service_part .container .top .item{
+    max-width: 424px;
+    border-radius: 20px;
+    background: #FFF;
+}
+
+#service_part .container .top .item:nth-child(even){
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+}
+
+#service_part .container .top .item .logo{
+    width: 98.664px;px;
+    padding: 80px 162.92px 0;
+
+}
+
+#service_part .container .top .item .text h3{
+    color: #151515;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 40.5px 138px 20px 139px;
+}
+
+#service_part .container .top .item .text h5{
+    color: #737373;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0 49px 47px;
+}
+
+#service_part .container .bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 103px;
+    
+}
+
+#service_part .container .bottom .item{
+    max-width: 424px;
+    border-radius: 20px;
+    background: #FFF;
+}
+
+#service_part .container .bottom .item .logo{
+    width: 98.664px;px;
+    padding: 80px 162.92px 0;
+
+}
+
+#service_part .container .bottom .item .text h3{
+    color: #151515;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 40.5px 138px 20px 139px;
+}
+
+#service_part .container .bottom .item .text h5{
+    color: #737373;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0 49px 47px;
+}
+
+
+/* ============service_part============ */
+
+
+/* ===========Work_part============ */
+
+
+
+#work_part {
+    background: #F3F3F3;
+}
+
+#work_part .container  h4{
+    color:  #151515;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 150px 414px 0;
+    text-align: center; 
+}
+
+#work_part .container p{
+    color: #737373;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+    padding: 0 354px 50px 356px;
+}
+
+#work_part .container .top{
+    display: flex;
+    justify-content: space-between
+}
+
+#work_part .container .top .item{
+    max-width: 424px;
+    border-radius: 20px;
+    background: #FFF;
+}
+
+#work_part .container .top .item .image img:nth-child(odd){
+    border-radius: 3px;
+}
+
+#work_part .container .top .item .text h3{
+    color: #151515;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 30px 99px 10px 100px;
+}
+
+#work_part .container .top .item .text h5{
+    color: #737373;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0 42px 30px;
+}
+
+#work_part .container .bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+    margin-top: 20px
+    
+}
+
+#work_part .container .bottom .item{
+    max-width: 424px;
+    border-radius: 20px;
+    background: #FFF;
+}
+
+
+#work_part .container .bottom .item .text h3{
+    color: #151515;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 30px 99px 10px 100px;
+}
+
+#work_part .container .bottom .item .text h5{
+    color: #737373;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0 42px 30px;
+}
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===========Work_part============ */
