@@ -23,7 +23,41 @@ a{
     border: 0;
 }
 
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
 
+
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title  h4{
+    color:  #151515;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 492px;
+    margin: 0 auto;
+}
+
+.title p{
+    color: #737373;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 609px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+}
 
 /* ========navbar============= */
 
@@ -33,6 +67,7 @@ a{
     position: absolute;
     width: 100%;
     top: 50px;
+    z-index: 9;
 }
 
 .navbar .navbar-brand{
@@ -67,9 +102,20 @@ a{
 
 /* ==========banner=========== */
 
-#banner_part{
+.banner_part{
     background: url(../images/banner1.jpg) no-repeat center/cover;
 }
+.banner_part02{
+    background: url(../images/banner02.avif) no-repeat center/cover;
+}
+.banner_part03{
+    background: url(../images/banner03.webp) no-repeat center/cover;
+}
+.banner_part04{
+    background: url(../images/banner04.jpg) no-repeat center/cover;
+}
+
+
 
 #banner_part .overlay{
     padding: 315px 0 272px;
@@ -105,6 +151,32 @@ a{
     line-height: 26px;
     margin: 51px 0 40px;
 
+}
+
+.main_banner_slidder{
+    position: relative;
+}
+
+.main_banner_slidder ul{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 53px;
+    display: flex;
+    column-gap: 2px;
+}
+
+.main_banner_slidder ul li button{
+    width: 24px;
+    height: 24px;
+    border: 4px solid #4756DF;
+    background: #4756DF;
+    border-radius: 50%;
+    font-size: 0;
+}
+
+.main_banner_slidder ul .slick-active button{
+    border-color: #FFFFFF;
 }
 
 /* ==========banner=========== */
@@ -175,124 +247,45 @@ a{
 /* ============service_part============ */
 
 #service_part {
-    margin-top: 149px;
+    padding: 149px 0 103px;
 }
 
-/* #service_part .container{
-    justify-content: center;
-    align-items: center;  
-    text-align: center; 
-} */
+#service_part .main{
 
-#service_part .container  h4{
-    color:  #151515;
+    text-align: center;
+    padding: 80px 49px 46.66px;
+    border-radius: 20px;
+    transition: .4s;
+}
+
+#service_part .container .row{
+    row-gap: 24px;
+}
+
+#service_part .main h3{
+    color: var(--Dark-01, #151515);
+    text-align: center;
     font-family: Inter;
-    font-size: 45px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding: 0 414px 0;
-    text-align: center; 
+    margin: 40px 0 20px;
 }
 
-#service_part .container p{
-    color: #737373;
+#service_part .main p{
+    color: var(--Dark-03, #737373);
     text-align: center;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    margin-top: 20px;
-    padding: 0 354px 50px 356px;
 }
 
-#service_part .container .top{
-    display: flex;
-    justify-content: space-between
-}
-
-#service_part .container .top .item{
-    max-width: 424px;
-    border-radius: 20px;
-    background: #FFF;
-}
-
-#service_part .container .top .item:nth-child(even){
-    border-radius: 20px;
-    background: #FFF;
+#service_part .main:hover{
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
 }
-
-#service_part .container .top .item .logo{
-    width: 98.664px;px;
-    padding: 80px 162.92px 0;
-
-}
-
-#service_part .container .top .item .text h3{
-    color: #151515;
-    text-align: center;
-    font-family: Inter;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding: 40.5px 138px 20px 139px;
-}
-
-#service_part .container .top .item .text h5{
-    color: #737373;
-    text-align: center;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    padding: 0 49px 47px;
-}
-
-#service_part .container .bottom{
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0 103px;
-    
-}
-
-#service_part .container .bottom .item{
-    max-width: 424px;
-    border-radius: 20px;
-    background: #FFF;
-}
-
-#service_part .container .bottom .item .logo{
-    width: 98.664px;px;
-    padding: 80px 162.92px 0;
-
-}
-
-#service_part .container .bottom .item .text h3{
-    color: #151515;
-    text-align: center;
-    font-family: Inter;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding: 40.5px 138px 20px 139px;
-}
-
-#service_part .container .bottom .item .text h5{
-    color: #737373;
-    text-align: center;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    padding: 0 49px 47px;
-}
-
 
 /* ============service_part============ */
 
@@ -303,126 +296,92 @@ a{
 
 #work_part {
     background: #F3F3F3;
-}
-
-#work_part .container  h4{
-    color:  #151515;
-    font-family: Inter;
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding: 150px 414px 0;
-    text-align: center; 
-}
-
-#work_part .container p{
-    color: #737373;
-    text-align: center;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    margin-top: 20px;
-    padding: 0 354px 50px 356px;
-}
-
-#work_part .container .top{
-    display: flex;
-    justify-content: space-between
-}
-
-#work_part .container .top .item{
-    max-width: 424px;
-    border-radius: 20px;
-    background: #FFF;
-}
-
-#work_part .container .top .item .image img:nth-child(odd){
-    border-radius: 3px;
-}
-
-#work_part .container .top .item .text h3{
-    color: #151515;
-    text-align: center;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    padding: 30px 99px 10px 100px;
-}
-
-#work_part .container .top .item .text h5{
-    color: #737373;
-    text-align: center;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    padding: 0 42px 30px;
-}
-
-#work_part .container .bottom{
-    display: flex;
-    justify-content: space-between;
     padding-bottom: 150px;
-    margin-top: 20px
-    
 }
 
-#work_part .container .bottom .item{
-    max-width: 424px;
+#work_part .title h4{
+    padding: 150px 0 20px ;
+}
+
+#work_part .title p{
+    width: 620px;
+    margin-bottom: 106px;
+}
+
+#work_part .main_w{
+    text-align: center;
     border-radius: 20px;
-    background: #FFF;
+    overflow: hidden;
 }
 
-
-#work_part .container .bottom .item .text h3{
-    color: #151515;
+#work_part .main_w h3{
+    color: var(--Dark-01, #151515);
     text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding: 30px 99px 10px 100px;
+    margin-top: 30px;
 }
 
-#work_part .container .bottom .item .text h5{
-    color: #737373;
+#work_part .main_w p{
+    color: var(--Dark-03, #737373);
     text-align: center;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    padding: 0 42px 30px;
+    padding: 10px 42px 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ===========Work_part============ */
+
+/* ===========agenc_part============ */
+
+#agenc_part{
+    padding: 150px 0 106px;
+}
+
+
+#agenc_part .title p{
+    width: 802px;
+    margin: 0 auto;
+    padding: 20px 0 130px;
+}
+
+#agenc_part .main h3{
+    color: var(--Dark-01, #151515);
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 20px 0 10px;
+}
+
+#agenc_part .main p{
+    color: var(--Dark-03, #737373);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 344px;
+}
+
+
+#agenc_part .container .main .top{
+    margin-bottom: 88px;
+}
+
+
+#agenc_part .agence_team{
+    border-radius: 20px;
+    width: 100%;
+}
+
+
+/* ===========agenc_part============ */
