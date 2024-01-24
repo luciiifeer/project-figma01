@@ -626,6 +626,7 @@ ul{
     font-style: normal;
     font-weight: 600;
     line-height: 26px; /* 130% */
+    margin-top: 30px;
 }
 
 #price_part .item .r{
