@@ -599,6 +599,7 @@ ul{
     height: 64px;
     border-radius: 20px;
     background: #FFF;
+    margin-bottom: 20px;
 }
 
 #price_part .form .mb-3 .form-control{
