@@ -160,11 +160,16 @@
     }
 
     #work_part .title p {
-        margin-bottom: 60px;
+        margin-bottom: 80px;
+    }
+
+    #work_part .main_w {
+        border-radius: 10px;
+        padding: 20px 0;
     }
 
     #work_part {
-        padding-bottom: 60px;
+        padding-bottom: 10px;
     }
 
 
@@ -206,6 +211,9 @@
         max-width: 500px;
     }
     
+    #review_part .container .title {
+        margin-bottom: 60px;
+    }
 
     #review_part .main_slider .left {
         left: 10px;
