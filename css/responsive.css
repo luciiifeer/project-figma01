@@ -163,6 +163,14 @@
         margin-bottom: 80px;
     }
 
+    #work_part .main_w h3 {
+        margin-top: 15px;
+    }
+
+    #work_part .main_w p {
+        padding: 0;
+    }
+
     #work_part .main_w {
         border-radius: 10px;
         padding: 20px 0;
