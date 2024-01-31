@@ -1,0 +1,331 @@
+
+
+/* ================================================ */
+
+@media (max-width: 575.98px) { 
+    .navbar {
+        top: 0;
+        background: #f0f8ff;
+        padding: 5px 0;
+    }
+
+    .navbar-toggler{
+        border: 1px solid #6A4DF4;
+        border-radius: 0;
+    }
+    .navbar-toggler i{
+        color: #6A4DF4;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+
+    .navbar .navbar-nav{
+        flex-direction: row;
+        gap: 20px 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 30px 0;
+        
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        color: #000;
+    }
+
+    .navbar  .custom_btn {
+        color: #6A4DF4;
+        font-size: 15px;
+        padding: 8px 42px;
+        border-radius: 7px;
+        background: transparent;
+        border: 1px solid #6A4DF4;
+        width: 100%;
+    }
+
+/* ==================banner_part========================= */
+
+    #banner_part .overlay {
+        padding: 105px 0 55px;
+    }
+
+    #banner_part .overlay .container h1 {
+        font-size: 30px;
+        line-height: 90%;
+    }
+
+    #banner_part .overlay .container p {
+        font-size: 12px;
+        line-height: 15px;
+        margin: 12px 0 20px;
+    }
+
+    #banner_part .custom_btn {
+        font-size: 14px;
+        line-height: 21px;
+        padding: 4px 11px;
+        border-radius: 3px;
+    }
+    
+    .main_banner_slidder ul {
+        bottom: 20px;
+    }
+    .main_banner_slidder ul li button {
+        width: 18px;
+        height: 18px;
+    }
+
+    /* ===================success_part===================== */
+
+    #success_part {
+        padding: 60px 12px 0;
+    }
+
+    #success_part .container {
+        padding: 20px 30px 30px;
+        border-radius: 10px;
+    }
+
+    #success_part .container .left h3 {
+        font-size: 18px;
+        line-height: 100%;
+        text-align: center;
+    }
+
+    #success_part .container .left h2 {
+        font-size: 22px;
+        text-align: center;
+        margin: 10px 0 20px;
+    }
+
+    #success_part .container .text {
+        column-gap: 0;
+        justify-content: space-between;
+    }
+
+    #success_part .container .text .item{
+        text-align: center;
+        width: 32%;
+    }
+
+    #success_part .container .text .item h4 {
+        font-size: 22px;
+    }
+
+    #success_part .container .text .item p {
+        font-size: 12px;
+    }
+
+
+/* ======================service_part=============================== */
+
+    #service_part {
+        padding: 60px 12px;
+    }
+
+    .title h4 {
+        font-size: 30px;
+    }
+
+    .title p {
+        font-size: 13px;
+        line-height: 19px;
+        padding-top: 5px;
+    }
+
+    #service_part .main {
+        padding: 30px 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    }
+
+    #service_part .main:hover {
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    }
+
+    #service_part .main h3 {
+        font-size: 25px;
+        margin: 20px 0 15px;
+    }
+
+    #service_part .main p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+/* ======================work_part=============================== */
+
+    #work_part .title h4 {
+        padding: 60px 0 20px;
+    }
+
+    #work_part .title p {
+        margin-bottom: 60px;
+    }
+
+    #work_part {
+        padding-bottom: 60px;
+    }
+
+
+
+/* =======================agenc_part============================== */
+
+    #agenc_part {
+        padding: 60px 0 50px;
+    }
+
+    #agenc_part .title {
+        margin-bottom: 15px;
+    }
+    #agenc_part .title p {
+        padding: 20px 12px 30px;
+    }
+
+    #agenc_part .container .main .top {
+        margin: 20px 0 30px;
+        text-align: end;
+    }
+
+    #agenc_part .agence_team {
+        display: none;
+    }
+
+
+/* ======================review_part=============================== */
+
+    #review_part {
+        padding: 60px 0 60px;
+    }
+
+    #review_part .main_slider .review_item {
+        padding: 20px 15px;
+    }
+
+    #review_part .main_slider .review_item p{
+        max-width: 500px;
+    }
+    
+
+    #review_part .main_slider .left {
+        left: 10px;
+        top: 50%;
+        background: transparent;
+        color: #4756DF;
+    }
+
+    #review_part .main_slider .right {
+        right: 10px;
+        top: 50%;
+        background: transparent;
+        color: #4756DF;
+    }
+
+
+/* ===================price_part================================== */
+
+    #price_part .item {
+        flex-direction: column;
+    }
+
+    #price_part .form {
+        border-radius: 10px;
+        padding: 20px 40px;
+    }
+
+    #price_part .item .l {
+        padding: 60px 0 0;
+    }
+
+    #price_part .col-lg-6 .title h4 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #price_part .col-lg-6 .title p {
+        font-size: 13px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    #price_part .item .r {
+        padding: 20px 12px;
+    }
+
+    #price_part .form {
+        height: 500px;
+        max-width: 100%;
+    }
+
+    #price_part .form h2 {
+        font-size: 19px;
+        padding-bottom: 10px;
+    }
+
+    #price_part .form .mb-3 .form-label {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    #price_part .form .mb-3 .form-control {
+        max-width: 100%;
+    }
+
+    #price_part .form .price_btn {
+        height: 50px;
+        border-radius: 10px;
+        max-width: 100%;
+    }
+
+    #price_part .form button {
+        font-size: 19px;
+        line-height: 20px;
+        margin-top: 5px;
+        padding: 0;
+    }
+
+
+
+/* =====================footer================================ */
+
+    footer {
+        padding-top: 40px;
+    }
+
+    footer .row .col-lg-4 p {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    footer .col-lg-8 .footer_menu{
+        column-gap: 0;
+        justify-content: space-between;
+    }
+
+    footer .col-lg-8 .footer_menu ul{  
+        text-align: center;
+    }
+
+    footer .footer_menu ul h3 {
+        font-size: 14px;
+    }
+
+    footer .footer_menu ul li a {
+        font-size: 9px;
+        line-height: 22px;
+    }
+
+    footer .footer_menu {
+	padding-bottom: 30px;
+    }
+
+    footer .container h5 {
+        font-size: 12px;
+        line-height: 20px;
+        padding: 10px 0;
+    }
+/* ===================================================== */
+
+/* ===================================================== */
+
+ }

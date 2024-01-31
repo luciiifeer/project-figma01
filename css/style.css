@@ -46,7 +46,7 @@ ul{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    width: 492px;
+    max-width: 492px;
     margin: 0 auto;
 }
 
@@ -57,7 +57,7 @@ ul{
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    width: 609px;
+    max-width: 609px;
     text-align: center;
     margin: 0 auto;
     padding-top: 20px;
@@ -189,7 +189,7 @@ ul{
 
 
 #success_part{
-    margin-top: 171px;
+    padding-top: 171px;
 }
 
 #success_part .container{
@@ -308,7 +308,6 @@ ul{
 }
 
 #work_part .title p{
-    width: 620px;
     margin-bottom: 106px;
 }
 
@@ -351,7 +350,6 @@ ul{
 
 
 #agenc_part .title p{
-    width: 802px;
     margin: 0 auto;
     padding: 20px 0 130px;
 }
@@ -373,7 +371,7 @@ ul{
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    width: 344px;
+    max-width: 344px;
 }
 
 
@@ -420,7 +418,7 @@ ul{
 }
 
 #review_part .main_slider .review_item p{
-    width: 307px;
+    max-width: 307px;
     color: var(--Dark-03, #7B7B7B);
     font-family: Inter;
     font-size: 16px;
@@ -528,13 +526,16 @@ ul{
     padding: 327px 0;
 }
 
+#price_part .col-lg-6 {
+    width: 100%;
+}
 
-#price_part .col-lg-6 .titl{
+#price_part .col-lg-6 .title{
     text-align: left;
 }
 
-#price_part .col-lg-6 .titl h4{
-    width: 470px;
+#price_part .col-lg-6 .title h4{
+    max-width: 470px;
     color: var(--Dark-01, #151515);
     font-family: Inter;
     font-size: 45px;
@@ -543,8 +544,8 @@ ul{
     line-height: normal;
 }
 
-#price_part .col-lg-6 .titl p{
-    width: 514px;
+#price_part .col-lg-6 .title p{
+    max-width: 514px;
     color: var(--Dark-03, #7B7B7B);
     font-family: Inter;
     font-size: 16px;
@@ -553,16 +554,6 @@ ul{
     line-height: 26px;
     margin-top: 20px;
     margin-bottom: 10px;
-}
-
-#price_part .col-lg-6 .titl h5{
-    width: 526px;
-    color: var(--Dark-03, #737373);
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
 }
 
 
@@ -598,12 +589,12 @@ ul{
     width: 450px;
     height: 64px;
     border-radius: 20px;
-    background: #FFF;
+    background: #ffffff;
     margin-bottom: 20px;
 }
 
 #price_part .form .mb-3 .form-control{
-    color: var(--Dark-05, #D0D0D0);
+    color: var(--Dark-05, #000000);
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
@@ -636,3 +627,61 @@ ul{
 
 
 /* =============price_part=============== */
+
+
+/* =============footer_part=============== */
+
+footer{
+    padding-top: 150px;
+}
+
+footer .row .col-lg-4 p{
+    max-width: 356px;
+    color: var(--Dark-03, #7B7B7B);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 30px;
+}
+
+footer .footer_menu{
+    display: flex;
+    justify-content: end;
+    column-gap: 131px;
+    padding-right: 7px;
+    padding-bottom: 50px;
+}
+
+footer .footer_menu ul h3{
+    color: var(--Dark-01, #151515);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+footer .footer_menu ul li a{
+    color: var(--Dark-03, #7B7B7B);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+footer .container h5{
+    color: var(--Dark-05, #D0D0D0);
+    font-family: Inter;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 33px 0 ;
+    border-top: 1px solid #E8E8E8;
+}
+
+/* =============footer_part=============== */
