@@ -18,11 +18,30 @@ $('.main_slider').slick({
     centerPadding: '0px',
 
     responsive: [
+      
+      {
+        breakpoint: 900,
+        settings: {
+          slidesToShow: 2,
+          centerMode: false,
+          slidesToScroll: 1
+        }
+      },
+            {
+        breakpoint: 767.98,
+        settings: {
+          slidesToShow: 1,
+          centerMode: false,
+          slidesToScroll: 1
+        }
+      },
+      
 
         {
           breakpoint: 575.98,
           settings: {
             slidesToShow: 1,
+            centerMode: false,
             slidesToScroll: 1
           }
         }
